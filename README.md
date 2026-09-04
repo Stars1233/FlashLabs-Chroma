@@ -140,7 +140,7 @@ def load_prompt(speaker_name):
     
     return [prompt_text], [audio_path]
 
-prompt_text, prompt_audio = load_prompt("scarlett_johansson")
+prompt_text, prompt_audio = load_prompt("speaker_4")
 
 # Process inputs
 inputs = processor(
